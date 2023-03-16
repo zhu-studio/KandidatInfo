@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 109px;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    max-width: 657px;
+    padding-top: 40px;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+}
+
+a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #464F99;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5f67a0;
+}
+
+a:visited {
+    color: #1d1f2d;
+}
+
+.grid__conteiner {
+    margin-top: 75px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, auto);
+}
+
+.header__text {
+    align-self: center;
+    justify-self: start;
+}
+
+.header__img {
+    padding-top: 20px;
+    grid-column: 2/2;
+    align-self: center;
+    justify-self: center;
+    max-width: 100%;
+}
+
+.h3__header {
+    margin-top: 75px;
+    grid-column: span 2;
+}
+
+.content {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.li__content {
+    grid-column: span 2;
+    background-image: url(img/bgi_li.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;  
+}
+
+li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.li__text {
+    grid-column: span 2;
+    margin-bottom: 20px;
+}
